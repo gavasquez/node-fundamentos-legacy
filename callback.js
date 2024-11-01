@@ -18,5 +18,6 @@ const getUsuarioById = (id, callback) => {
 
 getUsuarioById(1, (usuario) => {
   console.log(usuario.id);
-  console.log(usuario.nombre.toUpperCase());
+  console.log(usuario.nombre.
+  toUpperCase());
 });
